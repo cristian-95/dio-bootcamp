@@ -2,4 +2,10 @@
 
 ### Modulo 2:
 
-- [Exercício Prático (site pessoal)](https://github.com/cristian-95/dio-bootcamp/tree/main/modulo2/introducao-html-css)
+Exercícios Praticos:
+
+- [Site pessoal](https://github.com/cristian-95/dio-bootcamp/tree/main/modulo2/introducao-html-css)
+
+- [Card](https://github.com/cristian-95/dio-bootcamp/tree/main/modulo2/css-transitions/card)
+
+- [Menu Hamburguer](https://github.com/cristian-95/dio-bootcamp/tree/main/modulo2/css-transitions/menu-hamburguer)
