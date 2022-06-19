@@ -2,7 +2,7 @@ const form = document.getElementById("entrada");
 const novaTarefa = document.getElementById("nova-tarefa");
 
 form.addEventListener('submit', event => {
-    if (novaTarefa.value.length > 0){ // previni a criação de tarefas vazias
+    if (novaTarefa.value.length > 0){ // previne a criação de tarefas vazias
         gerarTarefa(novaTarefa.value);
         novaTarefa.value = '';
     }
