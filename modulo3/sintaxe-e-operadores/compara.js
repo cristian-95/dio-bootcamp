@@ -1,36 +1,39 @@
-function compara(a,b){
+function comparaNumeros(a,b){
     let igualdade = ""
-    let condicao1 = "" // a soma de a e b é maior que 10 ?
-    let condicao2 = "" // a soma de a e b é menor que 20 ?
+    let compara10 = ""
+    let compara20 = ""
     
     if (a == b ){
-        igualdade = "iguais";
+        igualdade = "são";
     } else {
-        igualdade = "diferentes";
+        igualdade = "não são";
     }
     if (a+b > 10){
-        condicao1 = "maior";
+        compara10 = "maior";
     } else {
-        condicao1 = "menor";
+        compara10 = "menor";
     }
     if (a+b < 20){
-        condicao2 = "menor";
+        compara20 = "menor";
     } else {
-        condicao2 = "maior";
+        compara20 = "maior";
     }
 
-    let output = `Os números ${a} e ${b} são ${igualdade}. Sua soma é ${a+b}, \
-que é ${condicao1} que 10 e ${condicao2} que 20.`;
+    const output = `Os números ${a} e ${b} ${igualdade} iguais. Sua soma é ${a+b}, \
+que é ${compara10} que 10 e ${compara20} que 20.`;
 
-    console.log(output);
+    return output
 }
 
-var args = process.argv.slice(2);
 
+var args = process.argv.slice(2);
 if ( args.length != 2){
     console.log("Modo de uso:\nPasse 2 argumentos após o nome do programa separados por espaço\nExemplo: \n$ node compara.js 5 10");
     process.exit(1);
 }
+
 const n1 = Number(args[0]);
 const n2 = Number(args[1]);
-compara(n1,n2);
+
+output = comparaNumeros(n1,n2);
+console.log(output);
