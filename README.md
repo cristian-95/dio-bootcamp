@@ -2,7 +2,7 @@
 
 ### Módulo 2:
 
-- [Site pessoal](https://github.com/cristian-95/dio-bootcamp/tree/main/modulo2/introducao-html-css)
+- [Site Pessoal](https://github.com/cristian-95/dio-bootcamp/tree/main/modulo2/introducao-html-css)
 
 - [Card](https://github.com/cristian-95/dio-bootcamp/tree/main/modulo2/css-transitions/card)
 
@@ -14,6 +14,8 @@
 
 - [Contador](https://github.com/cristian-95/dio-bootcamp/tree/main/modulo3/contador)
 
-- [To-do list](https://github.com/cristian-95/dio-bootcamp/tree/main/modulo3/todo-list)
+- [To-do List](https://github.com/cristian-95/dio-bootcamp/tree/main/modulo3/todo-list)
 
-- [Calculadora javascript](https://github.com/cristian-95/dio-bootcamp/tree/main/modulo3/calc-js)
+- [Calculadora Javascript](https://github.com/cristian-95/dio-bootcamp/tree/main/modulo3/calc-js)
+
+- [Sintaxe e Operadores](https://github.com/cristian-95/dio-bootcamp/tree/main/modulo3/sintaxe-e-operadores)
