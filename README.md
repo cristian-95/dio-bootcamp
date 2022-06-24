@@ -21,3 +21,5 @@
 - [Sintaxe e Operadores](https://github.com/cristian-95/dio-bootcamp/tree/main/modulo3/sintaxe-e-operadores)
 
 - [Atividades sobre funções](https://github.com/cristian-95/dio-bootcamp/tree/main/modulo3/funcoes)
+
+- [Erros](https://github.com/cristian-95/dio-bootcamp/tree/main/modulo3/error)
