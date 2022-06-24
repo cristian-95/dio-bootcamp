@@ -1,8 +1,9 @@
 function verificaNota(alunos, media, limiteDeFaltas=MAX_AULAS){
     let aprovados = [];
     for (aluno of alunos){
-        if (aluno["nota"] >= media && aluno["faltas"]< limiteDeFaltas){
-            aprovados.push(String(aluno["nome"]).toUpperCase());
+        let {nota, faltas, nome} = aluno
+        if (nota >= media && faltas < limiteDeFaltas){
+            aprovados.push(nome.toUpperCase());
         }
     }
     return aprovados;
@@ -47,9 +48,9 @@ listaAlunos = [
     },
 ];
 
-const LIMITE_DE_FALTAS = 10;
 const MEDIA = 5;
-var MAX_AULAS = 60;
+const LIMITE_DE_FALTAS = 10;
+const MAX_AULAS = 60;
 
 console.log("Alunos(as) aprovados ignorando as faltas: ",verificaNota(listaAlunos,MEDIA,));
 
