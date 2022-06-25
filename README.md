@@ -22,4 +22,7 @@
 
 - [Atividades sobre funções](https://github.com/cristian-95/dio-bootcamp/tree/main/modulo3/funcoes)
 
-- [Erros](https://github.com/cristian-95/dio-bootcamp/tree/main/modulo3/error)
+- [Erros](https://github.com/cristian-95/dio-bootcamp/tree/main/modulo3/
+error)
+
+- [Orientação a Objetos](https://github.com/cristian-95/dio-bootcamp/tree/main/modulo3/orientacao-a-objetos)
