@@ -27,3 +27,5 @@
 - [Orientação a Objetos](https://github.com/cristian-95/dio-bootcamp/tree/main/modulo3/orientacao-a-objetos)
 
 - [DOM](https://github.com/cristian-95/dio-bootcamp/tree/main/modulo3/DOM)
+
+- [Jogo da Memória](https://github.com/cristian-95/dio-bootcamp/tree/main/modulo3/projeto-final)
